@@ -1,0 +1,126 @@
+@import './_b.less';
+//搜搜页面
+.search {
+	height: 100%;
+	background: #85c8d4;
+	.search-input {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		width: 800px;
+		height: 40px;
+		margin-left: -400px;
+		margin-top : -120px;
+		
+		.el-input {
+			width: 70%;
+			margin-right: 10px;
+		}
+	}
+}
+//搜索结果页
+.search-result {
+	header {
+		border-bottom: 1px solid #f1f1f1;
+		padding: 20px;
+		background: #fff;
+		.search-input {
+			width: 800px;
+			height: 40px;
+			.el-input {
+				width: 70%;
+				margin-right: 10px;
+			}
+		}
+	}
+	.result {
+		background: #fff;
+		padding: 20px 80px;
+		li {
+			padding: 20px 0;
+			// border-bottom: 1px solid #f1f1f1;
+			a {
+				text-decoration: underline;
+			}
+			p {
+				font-size: 12px;
+				color: #ccc;
+			}
+		}
+		
+	}
+}
+//登录
+.login {
+	height: 100%;
+	background: #85c8d4;
+	.login-box {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		width: 500px;
+		padding: 40px 20px;
+		// height: 400px;
+		margin-left: -300px;
+		margin-top: -200px;
+		background: #fff;
+		border-radius: 6px;
+	}
+}
+//layout
+.layout {
+	header {
+		background: #545c64;
+		padding-right: 20px;
+		.logo {
+			margin : 8px 15px;
+			width: 80px;
+			border-radius: 8px;
+		}
+		.tx {
+			width: 30px;
+			height: 30px;
+			margin-right: 10px;
+		}
+		.el-dropdown {
+			color: #fff;
+			margin-top: 6px;
+		}
+	}
+}
+//index
+.index,
+.rules{
+	
+	.el-card {
+		margin-bottom: 10px;
+	}
+}
+//警示
+.warning {
+	background: #fff;
+	table {
+		width: 100%;
+		background: #fff;
+		font-size: 12px;
+		border: 1px solid #f1f1f1;
+		margin-bottom: 10px;
+		.label {
+			background: #f1f1f1;
+			height:30px;
+			// padding : 0 10px;
+		}
+		th {
+			padding: 2px 0px;
+		}
+	}
+	.el-form-item,.el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+		margin-bottom: 0;
+	}
+	.total {
+		margin-top: 8px;
+		margin-bottom: 20px;
+		line-height: 28px;
+		font-size: 14px;
+	}
+}
