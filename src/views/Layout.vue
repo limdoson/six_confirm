@@ -2,7 +2,7 @@
 	<div class="layout">
 		<header class='clearfix'>
 			<div class="fl clearfix">
-				<img src="../assets/img/timg.jpg" class="logo fl" alt="" >
+				<!-- <img src="../assets/img/timg.jpg" class="logo fl" alt="" > -->
 				<el-menu
 					:default-active="active"
 					class="el-menu-demo fl"
@@ -14,16 +14,17 @@
 					<el-menu-item index="/index">首页</el-menu-item>
 					<el-menu-item index="/index/result">开奖结果</el-menu-item>
 					<el-menu-item index="/index/rules">规则说明</el-menu-item>
-					<el-menu-item index="4">参考</el-menu-item>
-					<el-menu-item index="5">清除快取</el-menu-item>
-					<el-menu-item index="6">即时注单</el-menu-item>
-					<el-menu-item index="7">操盘</el-menu-item>
-					<el-menu-item index="8">走飞</el-menu-item>
-					<el-menu-item index="9">公司</el-menu-item>
-					<el-menu-item index="10">报表</el-menu-item>
+					<el-menu-item index="/index/reference">参考</el-menu-item>
+					<el-menu-item index="/index/clear">清除快取</el-menu-item>
+					<el-menu-item index="/index/in-time">即时注单</el-menu-item>
+					<el-menu-item index="/index/operate">操盘</el-menu-item>
+					<el-menu-item index="/index/fly">走飞</el-menu-item>
+					<el-menu-item index="/index/company">公司</el-menu-item>
+					<el-menu-item index="/index/account">账号管理</el-menu-item>
+					<el-menu-item index="/index/report">报表</el-menu-item>
 					<el-menu-item index="/index/warning">警示</el-menu-item>
-					<el-menu-item index="12">开奖</el-menu-item>
-					<el-menu-item index="13">系统</el-menu-item>
+					<el-menu-item index="/index/open">开奖</el-menu-item>
+					<el-menu-item index="/index/system">系统</el-menu-item>
 				</el-menu>
 			</div>
 			<div class="fr clearfix" style="margin-top: 15px;">
