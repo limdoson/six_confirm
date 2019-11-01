@@ -4,7 +4,7 @@
 			<!-- 头部信息 -->
 			<div slot='header'>
 				<el-row style='font-size: 12px;'>
-					<el-col :span='3'>
+					<el-col :span='4'>
 						特码操盘室，107期2018-08-08
 					</el-col>
 					<el-col :span='2'>
@@ -37,9 +37,10 @@
 					<el-col :span='2'>
 						特整合（<span class="red">0</span>）
 					</el-col>
-					<el-col :span='3'>
+					<el-col :span='5'>
 						<el-button type='primary' size='mini'>记录</el-button>
 						<el-button type='danger' size='mini'>立即停止下注</el-button>
+						<el-button type='success' size='mini' @click='$rxfn.openWindow(`#/sub-operate`,1500,900)'>子公司操盘设置</el-button>
 					</el-col>
 				</el-row>
 			</div>

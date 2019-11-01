@@ -2,6 +2,7 @@
 	<div class="layout">
 		<header class='clearfix'>
 			<div class="fl clearfix">
+				<span class="fl" style='color: #fff;line-height: 56px;margin-right: 15px;margin-left: 10px;'>子公司名称</span>
 				<!-- <img src="../assets/img/timg.jpg" class="logo fl" alt="" > -->
 				<el-menu
 					:default-active="active"

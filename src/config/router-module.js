@@ -21,8 +21,24 @@ const route_module = [
 	},
 	{//走飞
 		path : 'fly',
-		component : () => import('@v/fly/Fly')
+		component : () => import('@v/fly/Fly'),
+		children : [
+			{
+				path : '',
+				component : () => import('@v/fly/Index'),
+			},{
+				path : 'fly-webside',
+				component : () => import('@v/fly/WebSide'),
+			},{
+				path : 'fly-report',
+				component : () => import('@v/fly/FlyReport'),
+			}
+		]
 	},
+	// {//走飞报表
+	// 	path : 'fly-report',
+	// 	component : () => import('@v/fly/FlyReport')
+	// },
 	{//账号管理
 		path : 'account',
 		component : () => import('@v/account/Account')
