@@ -5,7 +5,7 @@
 	background: #85c8d4;
 	.search-input {
 		position: fixed;
-		top: 50%;
+		top: 40%;
 		left: 50%;
 		width: 800px;
 		height: 40px;
@@ -66,12 +66,26 @@
 		background: #fff;
 		border-radius: 6px;
 	}
+	.search-list {
+		margin-top: 20px;
+		li {
+			width: 25%;
+			font-size: 12px;
+			text-decoration: underline;
+			float: left;
+		}
+	}
 }
 //layout
 .layout {
+	padding-top: 80px;
 	header {
+		position: fixed;
+		top: 0;
+		width: 100%;
 		background: #545c64;
 		padding-right: 20px;
+		z-index: 1987777;
 		.logo {
 			margin : 8px 15px;
 			width: 80px;
@@ -104,7 +118,7 @@
 		background: #fff;
 		font-size: 12px;
 		border: 1px solid #f1f1f1;
-		margin-bottom: 10px;
+		// margin-bottom: 10px;
 		.label {
 			background: #f1f1f1;
 			height:30px;
@@ -143,6 +157,32 @@
 			color: blue;
 			cursor: pointer;
 			text-decoration: underline;
+		}
+	}
+}
+.in-time {
+	.el-form--inline {
+		.el-form-item {
+			margin-bottom: 0 !important;
+		}
+	}
+	.header {
+		background: #f1f1f1;
+	}
+	.type-list {
+		margin-top: 10px;
+		li {
+			float: left;
+			width: 10%;
+			padding: 10px 0;
+			text-align: center;
+			font-size: 12px;
+			cursor: pointer;
+			
+		}
+		.router-link-active {
+			background: #000;
+			color: #fff;
 		}
 	}
 }

@@ -1,6 +1,7 @@
 <template>
 	<div class="login">
-		<div class="login-box">
+		<div class="login-box" style="text-align: center;">
+			<img src="../assets/img/timg.jpg" alt="" style='width: 120px;margin-bottom: 20px;'>
 			<el-form label-width='100px' >
 				<el-form-item label='登录账号'>
 					<el-input></el-input>
@@ -12,6 +13,20 @@
 			<div class="center">
 				<el-button type='primary' @click='login'>登 录</el-button>
 			</div>
+			<ul class="search-list clearfix">
+				<li>
+					<a href="http://www.baidu.com" target="_blank">百度</a>
+				</li>
+				<li>
+					<a href="https://www.so.com/">360搜索</a>
+				</li>
+				<li>
+					<a href="https://www.sogou.com/">搜狗</a>
+				</li>
+				<li>
+					<a href="http://www.google.cn">google</a>
+				</li>
+			</ul>
 		</div>
 		
 	</div>

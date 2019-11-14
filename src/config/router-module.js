@@ -53,7 +53,40 @@ const route_module = [
 	},
 	{//即时注单
 		path : 'in-time',
-		component : () => import('@v/in-time/InTime')
+		component : () => import('@v/in-time/InTime'),
+		children : [
+			{
+				path : '',
+				component : () => import('@v/in-time/Tema'),
+			},{
+				path : 'hexiao',
+				component : () => import('@v/in-time/Hexiao'),
+			},{
+				path : 'zhengma',
+				component : () => import('@v/in-time/Zhengma'),
+			},{
+				path : 'zhengmate',
+				component : () => import('@v/in-time/Zhengmate'),
+			},{
+				path : 'yixiaoweishu',
+				component : () => import('@v/in-time/Yixiaoweishu'),
+			},{
+				path : 'lianma',
+				component : () => import('@v/in-time/Lianma'),
+			},{
+				path : 'zixuanbuzhong',
+				component : () => import('@v/in-time/Zixuanbuzhong'),
+				children : [
+					{
+						path : '',
+						component : () => import('@v/in-time/zixuanbuzhong/Top20'),
+					},{
+						path : 'wubuzhong',
+						component : () => import('@v/in-time/zixuanbuzhong/Wubuzhong'),
+					}
+				] 
+			}
+		]
 	},
 	{//公司
 		path : 'company',
