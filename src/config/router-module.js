@@ -33,6 +33,30 @@ const route_module = [
 					},{
 						path : 'hexiao',
 						component : () => import('@v/fly/Hexiao')
+					},{
+						path : 'zhengma',
+						component : () => import('@v/fly/Zhengma')
+					},{
+						path : 'zhengmate',
+						component : () => import('@v/fly/Zhengmate')
+					},{
+						path : 'yixiaoweishu',
+						component : () => import('@v/fly/Yixiaoweishu')
+					},{
+						path : 'lianma',
+						component : () => import('@v/fly/Lianma')
+					},{
+						path : 'zixuanbuzhong',
+						component : () => import('@v/fly/Zixuanbuzhong')
+					},{
+						path : 'lianxiao',
+						component : () => import('@v/fly/Lianxiao')
+					},{
+						path : 'lianwei',
+						component : () => import('@v/fly/Lianwei')
+					},{
+						path : 'tezhenghe',
+						component : () => import('@v/fly/Tezhenghe')
 					}
 				]
 			},{

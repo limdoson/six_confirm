@@ -16,31 +16,47 @@
 						<router-link tag='a' to='/index/fly/hexiao' >
 							合肖（<span class="red">0</span>）
 						</router-link>
+					</el-col>
+					<el-col :span='2'>
+						<router-link tag='a' to='/index/fly/zhengma' >
+							正码（<span class="red">0</span>）
+						</router-link>
+					</el-col>
+					<el-col :span='2'>
+						<router-link tag='a' to='/index/fly/zhengmate' >
+							正码特（<span class="red">0</span>）
+						</router-link>
+					</el-col>
+					<el-col :span='2'>
+						<router-link tag='a' to='/index/fly/yixiaoweishu' >
+							一肖尾数（<span class="red">0</span>）
+						</router-link>
+					</el-col>
+					<el-col :span='2'>
+						<router-link tag='a' to='/index/fly/lianma' >
+							连码（<span class="red">0</span>）
+						</router-link>
+					</el-col>
+					<el-col :span='2'>
+						<router-link tag='a' to='/index/fly/zixuanbuzhong' >
+							自选不中（<span class="red">0</span>）
+						</router-link>
 						
 					</el-col>
 					<el-col :span='2'>
-						正码（<span class="red">0</span>）
+						<router-link tag='a' to='/index/fly/lianxiao' >
+							连肖（<span class="red">0</span>）
+						</router-link>
 					</el-col>
 					<el-col :span='2'>
-						正码特（<span class="red">0</span>）
+						<router-link tag='a' to='/index/fly/lianwei' >
+							连尾（<span class="red">0</span>）
+						</router-link>
 					</el-col>
 					<el-col :span='2'>
-						一肖尾数（<span class="red">0</span>）
-					</el-col>
-					<el-col :span='2'>
-						连码（<span class="red">0</span>）
-					</el-col>
-					<el-col :span='2'>
-						自选不中（<span class="red">0</span>）
-					</el-col>
-					<el-col :span='2'>
-						连肖（<span class="red">0</span>）
-					</el-col>
-					<el-col :span='2'>
-						特尾（<span class="red">0</span>）
-					</el-col>
-					<el-col :span='2'>
-						特整合（<span class="red">0</span>）
+						<router-link tag='a' to='/index/fly/tezhenghe' >
+							特整合（<span class="red">0</span>）
+						</router-link>
 					</el-col>
 				</el-row>
 			</div>

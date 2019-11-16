@@ -118,17 +118,145 @@
 				</tr>
 			</tbody>
 		</table>
-		<table style='width: 100%;margin-top: 15px;' border>
-			<tbody>
-				<tr>
-					<td class="label">生肖</td>
-					<td class="label">生肖</td>
-					<td class="label">生肖</td>
-					<td class="label">生肖</td>
-					<td class="label">生肖</td>
-				</tr>
-			</tbody>
-		</table>
+		<el-row>
+			<el-col :span='6'>
+				<table style='width: 100%;margin-top: 15px;' border>
+					<tbody>
+						<tr>
+							<td class="label">生肖</td>
+							<td class="label">选择</td>
+							<td class="label">号码</td>
+						</tr>
+						<tr>
+							<td>鼠</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>牛</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>虎</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>兔</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+					</tbody>
+				</table>
+			</el-col>
+			<el-col :span='6'>
+				<table style='width: 100%;margin-top: 15px;' border>
+					<tbody>
+						<tr>
+							<td class="label">生肖</td>
+							<td class="label">选择</td>
+							<td class="label">号码</td>
+						</tr>
+						<tr>
+							<td>龙</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>蛇</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>马</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>羊</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+					</tbody>
+				</table>
+			</el-col>
+			<el-col :span='6'>
+				<table style='width: 100%;margin-top: 15px;' border>
+					<tbody>
+						<tr>
+							<td class="label">生肖</td>
+							<td class="label">选择</td>
+							<td class="label">号码</td>
+						</tr>
+						<tr>
+							<td>猴</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>鸡</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>狗</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+						<tr>
+							<td>猪</td>
+							<td>
+								<el-checkbox></el-checkbox>
+							</td>
+							<td>11,24,36,48</td>
+						</tr>
+					</tbody>
+				</table>
+			</el-col>
+		</el-row>
+		<el-form inline size='mini'>
+			<el-form-item label='合肖走飞'></el-form-item>
+			<el-form-item label='赔率'>
+				<el-input></el-input>
+			</el-form-item>
+			<el-form-item label='退水'>
+				<el-input></el-input>
+			</el-form-item>
+			<el-form-item label='金额'>
+				<el-input></el-input>
+			</el-form-item>
+			<el-form-item label='站名'>
+				<el-input></el-input>
+			</el-form-item>
+			<el-form-item >
+				<el-button type='primary'>走飞</el-button>
+				<el-button type='danger'>清楚</el-button>
+				<el-button type='default'>资料刷新</el-button>
+			</el-form-item>
+		</el-form>
 	</div>
 </template>
 <script>
