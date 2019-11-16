@@ -38,6 +38,33 @@
 					</el-form-item>
 				</el-form>
 			</div>
+			<el-table
+				:header-cell-style="{'background' : '#fafafa'}"
+				:data='list'
+				border>
+				<el-table-column label='股东账号名称' prop=''></el-table-column>
+				<el-table-column label='笔数' prop=''></el-table-column>
+				<el-table-column label='下注金额' prop=''></el-table-column>
+				<el-table-column label='会员结果' prop=''></el-table-column>
+				<el-table-column label='股东交收' prop=''></el-table-column>
+				<el-table-column label='大股东' prop=''>
+					<el-table-column label='退水' prop=''></el-table-column>
+					<el-table-column label='倍差' prop=''></el-table-column>
+					<el-table-column label='金额' prop=''></el-table-column>
+					<el-table-column label='占成' prop=''></el-table-column>
+					<el-table-column label='结果' prop=''></el-table-column>
+					
+				</el-table-column>
+				<el-table-column label='大股东收飞' prop=''>
+					<el-table-column label='收飞' prop=''></el-table-column>
+					<el-table-column label='退水' prop=''></el-table-column>
+					<el-table-column label='倍差' prop=''></el-table-column>
+					<el-table-column label='结果' prop=''></el-table-column>
+				</el-table-column>
+				<el-table-column label='总结果' prop=''></el-table-column>
+				<el-table-column label='大股东交收' prop=''></el-table-column>
+				
+			</el-table>
 		</el-card>
 	</div>
 </template>
@@ -45,7 +72,7 @@
 	export default {
 		data () {
 			return {
-				
+				list : []
 			}
 		},
 		created () {},

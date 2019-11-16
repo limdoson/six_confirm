@@ -1,10 +1,16 @@
 <template>
 	<div class="">
 		<el-card>
-			<div slot='header' class='clearfix'>
-				<div class="fl">开奖管理</div>
-				<el-button class="fr" type='primary' size='mini'>新增</el-button>
-			</div>
+			<el-form inline size='small' label-width='140px'>
+				<el-form-item label='开奖管理'></el-form-item>
+				<el-form-item label='时间'>
+					<el-date-picker
+					  v-model="value1"
+					  type="date"
+					  placeholder="选择日期">
+					</el-date-picker>
+				</el-form-item>
+			</el-form>
 			<el-table
 				border
 				:header-cell-style="{background :'#fafafa'}">
@@ -28,7 +34,7 @@
 	export default {
 		data () {
 			return {
-				
+				value1 : null
 			}
 		},
 		created () {},

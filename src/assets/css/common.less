@@ -37,7 +37,7 @@ body {
     -webkit-align-items: center;
 }
 .center {
-	text-align: center;
+	text-align: center !important;
 }
 .main-view-container {
 	// padding: 20px;
@@ -112,4 +112,17 @@ body {
 		text-align: center;
 		padding: 8px 12px;
 	}
+}
+.mini-input {
+	.el-input__inner {
+		max-width: 80px;
+		font-size: 13px;
+		height: 30px;
+		line-height: 30px;
+	}
+	
+}
+.router-link-active {
+	background: #f1f1f1;
+	color: #000;
 }

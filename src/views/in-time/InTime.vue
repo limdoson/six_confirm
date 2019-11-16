@@ -47,15 +47,16 @@
 					<router-link tag='li' to='/index/in-time/zixuanbuzhong'>
 						自选不中（<span class="red">21212</span>）
 					</router-link>
-					<router-link tag='li' to='/lianxiao'>
+					<router-link tag='li' to='/index/in-time/lianxiao'>
 						连肖（<span class="red">21212</span>）
 					</router-link>
-					<router-link tag='li' to='/lianwei'>
+					<router-link tag='li' to='/index/in-time/lianwei'>
 						连尾（<span class="red">21212</span>）
 					</router-link>
-					<li>
+					<router-link tag='li' to='/index/in-time/all'>
 						全部（<span class="red">21212</span>）
-					</li>
+					</router-link>
+					
 					<!-- <li>
 						特码（<span class="red">21212</span>）
 					</li>
